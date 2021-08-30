@@ -1,0 +1,498 @@
+/* ----->>>>>>RESET CSS START<<<<<<--------- */
+
+body,h1,h2,h3,h4,h5,h6,p,a,span{
+    font-family: 'Work Sans', sans-serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+    
+}
+
+.mid_content{
+    width: 1280px;
+    margin: auto;
+}
+
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-left{
+    text-align: left;
+}
+
+.text-right{
+    text-align: right;
+}
+img{
+    max-width: 100%;
+}
+
+/* ----->>>>>>RESET CSS END<<<<<<--------- */
+/* ----->>>>>>HEADER CSS START<<<<<<-------- */
+
+.header {
+	background-color: #fff;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 99;
+}
+.header_item{}
+.header_logo{
+    width: 30%;
+}
+.header_logo img{
+    width: 90px;
+}
+
+.header_menu{
+    width: 70%;
+}
+.header_menu ul{}
+.header_menu ul li{
+    display: inline-block;
+}
+.header_menu ul li a {
+	display: inline-block;
+	text-decoration: none;
+	color: black;
+	padding: 10px 25px;
+	line-height: 35px;
+}
+
+/* ----->>>>>>HEADER CSS END<<<<<<-------- */
+/* ----->>>>>>COVER CSS START<<<<<<-------- */
+
+.cover{
+    background-image: url(https://i.postimg.cc/cJbqFCcM/kobu-agency-IWLR561-Yb-MY-unsplash.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    padding: 220px 0px;
+
+    position: relative;
+    z-index: 1;
+}
+.cover::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.cover_item h3 {
+	color: white;
+	font-size: 25px;
+	font-weight: 400;
+}
+.cover_item h2 {
+	color: white;
+	font-size: 55px;
+	font-weight: 600;
+	padding: 20px 0px;
+}
+.defult-btn {
+	background: white;
+	text-decoration: none;
+	color: gray;
+	padding: 18px 25px;
+	border-radius: 10px;
+	font-weight: 600;
+	display: inline-block;
+	margin-top: 10px;
+	margin-left: 6px;
+	font-size: 17px;
+
+    transition: 0.4s;
+}
+.defult-btn:hover{
+    background: #e79230;
+    color: white;
+    border-radius: 10px;
+}
+
+/* ----->>>>>>COVER CSS END<<<<<<-------- */
+/* ----->>>>>>PRCING TABLE CSS START<<<<<<-------- */
+
+.pricing_table{
+    background-color: #f7f7f7;
+    padding: 40px 0px;
+}
+.pricing_item{}
+.pricing_title{}
+.pricing_title h2 {
+	font-size: 50px;
+	font-weight: 400;
+}
+.pricing_title p {
+	font-size: 14px;
+	color: #3b3939;
+	margin-top: 20px;
+}
+
+.pricing_box {
+	background: white;
+	width: 29%;
+	margin-left: 3%;
+	margin-top: 80px;
+    box-shadow: 3px 4px 40px 0 rgba(98, 120, 223,.2);
+	transition: 0.4s;
+}
+.pricing_header{
+    border-bottom: 1px solid #ddd;
+    padding:20px;
+
+    transition: 0.4s;
+}
+.pricing_header h4 {
+	font-size: 23px;
+	font-weight: 400;
+	margin-bottom: 40px;
+}
+.pricing_header .div1{
+    width: 100%;
+    background-color: #f7f7f7;
+	transition: 0.4s;
+}
+.pricing_header h2 {
+	font-size: 44px;
+	
+}
+.pricing_header h2 span{
+    font-size: 18px;
+}
+.pricing_header h5 {
+	font-size: 19px;
+	font-weight: 500;
+	margin-bottom: 20px;
+	margin-top: 35px;
+}
+.pricing_header p {
+	width: 232px;
+}
+
+.pricing_content{
+    padding:20px;
+}
+.pricing_content ul {
+	margin-top: 20px;
+}
+.pricing_content ul li {
+	list-style: none;
+	font-size: 19px;
+	color: #767676;
+	font-weight: 400;
+	margin-bottom: 20px;
+}
+.pricing_content ul li i {
+	color: #e79230;
+	font-size: 25px;
+}
+.pricing_content ul li a{
+    
+}
+
+.pricing_button .defult-btn{
+    box-shadow: 3px 4px 30px 0 rgba(98, 120, 223,.4);
+    margin-bottom: 25px;
+}
+.pricing_content ul li span {
+	margin-left: 18px;
+}
+.pricing_box:hover .div1{
+    background-color: #e79230;
+    color: white;
+}
+.pricing_box:hover .pricing_header {
+    background-color: #e79230;
+    color: white;
+}
+.pricing_box:hover .pricing_button .defult-btn{
+    background-color: #e79230;
+    color: white;
+}
+
+/* ----->>>>>>PRCING TABLE CSS END<<<<<<-------- */
+/* ----->>>>>>TEAM CSS START<<<<<<-------- */
+
+.team{
+    padding: 100px 0px;
+}
+.team_title{}
+.team_title h3 {
+	font-size: 30px;
+	font-weight: 500;
+	margin-bottom: 80px;
+}
+.team_members {
+	margin-left: 80px;
+}
+
+.member {
+	border: 6px double #e79230;
+	box-shadow: 3px 4px 40px 0 rgba(98, 120, 223,.2);
+	width: 20%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.member img{}
+.member_bio {
+	margin-top: 20px;
+	margin-left: 25px;
+	margin-bottom: 26px;
+}
+.member_bio h5 {
+	font-size: 20px;
+	font-weight: 500;
+	margin-bottom: 10px;
+}
+.member_bio p {
+	color: #767676;
+}
+
+/* ----->>>>>>TEAM CSS END<<<<<<-------- */
+/* ----->>>>>>NEWSLATTER CSS START<<<<<<-------- */
+
+.newslatter{
+	background-color: #f5f5f5;
+	padding: 100px 0px;
+}
+.newslatter_item{}
+.newslatter_item p {
+	font-size: 15px;
+	color: #767676;
+	margin-bottom: 45px;
+}
+.newslatter_item h3 {
+	font-size: 35px;
+	font-weight: 500;
+	margin-bottom: 40px;
+}
+.form{}
+.btn{
+	padding: 15px 15px;
+	width: 380px;
+	border-radius: 7px;
+	font-size: 18px;
+	border: 1px solid #aa972c;
+	box-sizing: border-box;
+
+	transition: 0.4s;
+}
+.btn:focus{
+	box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.5);
+	
+}
+.subscribe_btn {
+	margin-top: 20px;
+	font-size: 20px;
+	display: inline-block;
+	padding: 15px 68px;
+	border-radius: 7px;
+	border: none;
+	background: #aa972c;
+	color: white;
+	border: 1px solid #aa972c;
+	cursor: pointer;
+
+	transition: 0.4s;
+}
+.subscribe_btn:hover{
+	background: white;
+	color: #e79230;
+	
+	border-radius: 7px;
+	box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.5);
+}
+
+/* ----->>>>>>NEWSLATTER CSS END<<<<<<-------- */
+/*------->>>>>>SKILL CSS START<<<<<<<<--------- */
+
+.skill{}
+.skill_title{}
+.skill_title h3 {
+	font-size: 46px;
+	font-weight: 500;
+	margin-bottom: 25px;
+}
+.skill_item{}
+.item_left{
+	width: 50%;
+}
+.item_left img {
+	width: 380px;
+	position: relative;
+	top: 0;
+	left: 130px;
+}
+.item_right {
+	width: 50%;
+	position: relative;
+	top: 0;
+	right: 103px;
+}
+.item_right h5 {
+	color: #59504f;
+	font-size: 17px;
+	line-height: 3.5em;
+}
+.item_right p {
+	color: #3a3838;
+	font-size: 15px;
+	text-align: justify;
+}
+
+/*------->>>>>>SKILL CSS END<<<<<<<-------- */
+/*------->>>>>>ABOUT CSS START<<<<<<------- */
+
+.about{
+	background-color: #f5f5f5;
+	padding: 100px 0px;
+}
+.about_title{}
+.about_title p {
+	color: #767676;
+	font-size: 15px;
+	margin-bottom: 50px;
+}
+.about_title h3 {
+	font-size: 43px;
+	font-weight: 400;
+	margin-bottom: 80px;
+}
+.about_item{}
+.about_box {
+	width: 30%;
+	box-sizing: border-box;
+	margin-left: 2%;
+	border: 2px solid #ddd;
+	
+}
+.about_header {
+	background: white;
+	padding: 32px 50px;
+	line-height: 2.2rem;
+	box-shadow: 0px 4px 6px 0 #e2e2e2;
+	position: relative;
+}
+
+.about_header p::before {
+	content: "\f10d";
+	font-family: FontAwesome;
+	top: 0;
+	left: 0;
+	font-size: 60px;
+	position: absolute;
+	opacity: 0.15;
+	top: 31px;
+	left: 33px;
+}
+
+.about_header::after {
+	content: "";
+	top: 239px;
+	left: 165px;
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 16px 18px 0 15px;
+	border-color: #ffffff transparent transparent transparent;
+}
+.about_header p {
+	font-size: 17px;
+	color: #747474;
+}
+.about_bio {
+	padding: 20px 0px;
+	margin-left: 77px;
+	margin-top: 17px;
+}
+.left_img{
+	display: inline-block;
+}
+.left_img img {
+	border: 6px solid #aa972c;
+	width: 70px;
+}
+.right_info {
+	display: inline-block;
+	position: relative;
+	bottom: 26px;
+	left: 17px;
+}
+.right_info h5 {
+	font-size: 17px;
+	font-weight: 500;
+}
+.right_info p {
+	font-size: 14px;
+	color: gray;
+}
+
+/*------->>>>>>ABOUT CSS END<<<<<<------- */
+/*------->>>>>>CONTACT CSS START<<<<<<------- */
+
+.contact{
+	padding: 80px 0px;
+	
+}
+.contact_title{}
+.contact_title h5 {
+	font-size: 22px;
+	font-weight: 500;
+	margin-bottom: 20px;
+}
+.contact_title p {
+	color: #767676;
+	width: 566px;
+	margin: auto;
+	line-height: 1.5em;
+	margin-bottom: 40px;
+}
+.form_section{
+	width: 566px;
+	margin: auto;
+}
+.form_section input {
+	margin-top: 15px;
+	
+}
+
+.form_section .w100{
+	width: 100%;
+}
+.form_section .w50{
+	width: 48%;
+}
+.form_section textarea {
+	margin-top: 15px;
+	height: 150px;
+}
+.form_section .subscribe_btn{}
+
+.footer{}
+.footer p {
+	margin-top: 85px;
+}
